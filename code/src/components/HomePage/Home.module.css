@@ -1,0 +1,26 @@
+.home {
+  min-width: 100vw;
+  max-width: 100vh;
+}
+
+.top {
+  height: 6rem;
+  position: relative;
+}
+.bg {
+  background-color: hsl(180, 29%, 50%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background: url(../../images/bg-header-desktop.svg);
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 2;
+  bottom: 0rem;
+}
