@@ -1,0 +1,97 @@
+.card {
+  padding-top: 5rem;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(180, 52%, 96%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  
+}
+.eachCard {
+  margin: 0 5rem;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  box-shadow: 0.1rem 0.5rem 0.5rem 0rem hsla(180, 8%, 52%, 0.17);
+}
+
+.span {
+  position: absolute;
+  width: 0.2rem;
+  height: 100%;
+  background-color: hsl(180, 29%, 50%);
+  z-index: 10;
+}
+
+.cardTitle {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.info h1 {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 700;
+}
+.headlines {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+.headlines p {
+  color: hsl(180, 29%, 50%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.headlines h2 {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10rem;
+}
+
+.new {
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+}
+
+.featured {
+  background-color: black;
+  color: white;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(180, 8%, 52%);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.caption {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.caption caption {
+  color: hsl(180, 29%, 50%);
+  padding: 0.4rem 0.8rem;
+  font-weight: 700;
+  background-color: hsl(180, 31%, 95%);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
