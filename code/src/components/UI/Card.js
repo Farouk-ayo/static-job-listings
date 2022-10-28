@@ -1,5 +1,5 @@
 import classes from "./Card.module.css";
-import DUMMY_jOBS from "../store/cartContext";
+import DUMMY_jOBS from "../store/context";
 
 const Card = () => {
   const allJobs = [];
