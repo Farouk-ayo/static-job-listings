@@ -29,6 +29,7 @@ const Card = () => {
             </div>
           </div>
         </div>
+        <hr />
         <div className={classes.caption}>
           {job.captions.map((caption) => (
             <caption>{caption}</caption>

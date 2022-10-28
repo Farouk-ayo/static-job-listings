@@ -26,3 +26,8 @@
   z-index: 2;
   bottom: 0rem;
 }
+@media (max-width: 72rem) {
+  .img {
+    background: url(../../images/bg-header-mobile.svg);
+  }
+}

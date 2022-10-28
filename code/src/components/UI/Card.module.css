@@ -7,6 +7,7 @@
   gap: 2rem;
   position: relative;
 }
+
 .eachCard {
   margin: 0 5rem;
   display: flex;
@@ -16,15 +17,26 @@
   justify-content: space-between;
   background-color: white;
   position: relative;
+  border-radius: 0.5rem;
   box-shadow: 0.1rem 0.5rem 0.5rem 0rem hsla(180, 8%, 52%, 0.17);
+}
+@media (max-width: 72rem) {
+  .eachCard {
+    margin: 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+  }
 }
 
 .span {
   position: absolute;
-  width: 0.2rem;
+  width: 0.3rem;
   height: 100%;
   background-color: hsl(180, 29%, 50%);
-  z-index: 10;
+  z-index: 20;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
 }
 
 .cardTitle {
@@ -32,6 +44,26 @@
   gap: 1rem;
   align-items: center;
   padding: 1rem 2rem;
+}
+@media (max-width: 72rem) {
+  .cardTitle {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+}
+hr {
+  display: none;
+}
+@media (max-width: 72rem) {
+  hr {
+    display: inline-block;
+    width: 95%;
+    align-self: center;
+    border: none;
+    border-bottom: 1px hsl(180, 8%, 52%) solid;
+  }
 }
 
 .info {
@@ -78,11 +110,21 @@
   align-items: center;
   gap: 1.5rem;
 }
-
+@media (max-width: 72rem) {
+  .description {
+    gap: 0rem;
+  }
+}
 .caption {
   display: flex;
   gap: 0.5rem;
   padding: 1rem 2rem;
+}
+@media (max-width: 72rem) {
+  .caption {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
 
 .caption caption {
