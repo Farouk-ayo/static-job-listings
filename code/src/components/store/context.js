@@ -11,7 +11,7 @@ import theAirFilter from "../../images/the-air-filter-company.svg";
 
 const DUMMY_jOBS = [
   {
-    id: 1,
+    key: 1,
     name: "Photosnap",
     image: photosnap,
     new: "NEW!",
@@ -23,7 +23,7 @@ const DUMMY_jOBS = [
     captions: ["Frontend", "Senior", "HTML", "css", "Javascript"],
   },
   {
-    id: 2,
+    key: 2,
     name: " Manage",
     image: manage,
     new: "NEW!",
@@ -35,7 +35,7 @@ const DUMMY_jOBS = [
     captions: ["Fullstack", "Midweight", "Python", "React"],
   },
   {
-    id: 3,
+    key: 3,
     name: " Account",
     image: account,
     new: "NEW!",
@@ -46,7 +46,7 @@ const DUMMY_jOBS = [
     captions: ["Frontend", "Junior", "React", "Sass", "Javascript"],
   },
   {
-    id: 4,
+    key: 4,
     name: " MyHome",
     image: myHome,
     title: "Junior Frontend Developer",
@@ -56,7 +56,7 @@ const DUMMY_jOBS = [
     captions: ["Frontend", "Junior", "CSS", "JavaScript"],
   },
   {
-    id: 5,
+    key: 5,
     name: " Loop Studios",
     image: lumpStudios,
     title: "Software Engineer",
@@ -66,7 +66,7 @@ const DUMMY_jOBS = [
     captions: ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"],
   },
   {
-    id: 6,
+    key: 6,
     name: " FaceIt",
     image: faceIt,
     title: "Junior Backend Developer",
@@ -76,7 +76,7 @@ const DUMMY_jOBS = [
     captions: ["Backend", "Junior", "Ruby", "RoR"],
   },
   {
-    id: 7,
+    key: 7,
     name: " Shortly",
     image: shortly,
     title: "Junior Developer",
@@ -86,7 +86,7 @@ const DUMMY_jOBS = [
     captions: ["Frontend", "Junior", "HTML", "Sass", "JavaScript"],
   },
   {
-    id: 8,
+    key: 8,
     name: " Insure",
     image: insure,
     title: "Junior Frontend Developer",
@@ -96,7 +96,7 @@ const DUMMY_jOBS = [
     captions: ["Frontend", "Junior", "Vue", "JavaScript", "Sass"],
   },
   {
-    id: 9,
+    key: 9,
     name: " Eyecam Co.",
     image: eyecamCo,
     title: "Full Stack Engineer",
@@ -106,7 +106,7 @@ const DUMMY_jOBS = [
     captions: ["Fullstack", "Midweight", "JavaScript", "Django", "Python"],
   },
   {
-    id: 10,
+    key: 10,
     name: " The Air Filter Company",
     image: theAirFilter,
     title: "Front-end Dev",
