@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 1.5rem;
   position: relative;
-  top: -2rem;
+  margin-top: -2rem;
 }
 
 .eachCard {
@@ -20,6 +20,7 @@
   position: relative;
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.5rem 0.5rem 0rem hsla(180, 8%, 52%, 0.17);
+  top: 3rem;
 }
 @media (max-width: 72rem) {
   .eachCard {

@@ -21,8 +21,9 @@ const Card = () => {
 
   const removeFilter = (event) => {
     event.preventDefault();
-    const removedValue = event.target.value;
+    const removedValue = event.target.getAttribute("val");
     console.log(removedValue);
+
     setFilter(
       filter.filter((rem) => {
         return rem !== removedValue;
@@ -122,13 +123,15 @@ const Card = () => {
         <form action="" className={classes.form}>
           <span className={classes.compbtn}>
             {filter.map((each) => (
-              <button
-                className={classes.btn}
-                onClick={removeFilter}
-                value={each}
-              >
+              <button className={classes.btn}>
                 {each}
-                <img className={classes.remove} src={iconRemove} alt="" />
+                <img
+                  className={classes.remove}
+                  src={iconRemove}
+                  alt=""
+                  onClick={removeFilter}
+                  val={each}
+                />
               </button>
             ))}
           </span>
